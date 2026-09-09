@@ -1,0 +1,50 @@
+{
+  "modelo": "Floresta aleatória",
+  "semente": 42,
+  "culturas": [
+    "Cocoa, beans",
+    "Oil palm fruit",
+    "Rice, paddy",
+    "Rubber, natural"
+  ],
+  "atributos": [
+    "cultura",
+    "chuva",
+    "umidade_especifica",
+    "umidade_relativa",
+    "temperatura"
+  ],
+  "faixas": {
+    "chuva": {
+      "min": 1934.62,
+      "max": 3085.79
+    },
+    "umidade_especifica": {
+      "min": 17.54,
+      "max": 18.7
+    },
+    "umidade_relativa": {
+      "min": 82.11,
+      "max": 86.1
+    },
+    "temperatura": {
+      "min": 25.56,
+      "max": 26.81
+    }
+  },
+  "unidade_alvo": "unidade original de Yield; conversão para t/ha pendente de confirmação",
+  "sha256_csv": "07b3335f497e08e705b5835ee334426ac16cb24732c1bfaa994254d39f771b1b",
+  "sklearn": "1.9.0",
+  "metricas_teste_antes_reajuste": {
+    "MAE": 3669.2384618596743,
+    "RMSE": 5172.422279821745,
+    "R2": 0.9944445807873752
+  },
+  "mae_baseline_cultura": 4077.381048387096,
+  "intervalo_mae_bootstrap": [
+    2835.090881637816,
+    4471.163608904898
+  ],
+  "k_clusters": 3,
+  "silhueta": 0.3987231285320193
+}
