@@ -1,0 +1,3 @@
+regiao,codigo,instancia,usd_hora,horas_mes,disco,gb,usd_gb_mes,ec2_mes,disco_mes,total_mes
+Virgínia do Norte,us-east-1,t4g.micro,0.0084,730,Magnetic (previous generation),50,0.05,6.132,2.5,8.632
+São Paulo,sa-east-1,t4g.micro,0.0134,730,Magnetic (previous generation),50,0.12,9.782,6.0,15.782
