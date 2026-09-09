@@ -1,0 +1,6 @@
+modelo,MAE_CV,desvio_MAE_CV,RMSE_CV,R2_CV,parametros
+Floresta aleatória,4414.737145121281,543.6884556479342,7902.35876313409,0.986778654866659,"{'modelo__max_depth': None, 'modelo__min_samples_leaf': 2}"
+Árvore de decisão,4619.073665910809,483.0948180640425,9324.146700905363,0.981561988798442,"{'modelo__max_depth': None, 'modelo__min_samples_leaf': 5}"
+Gradient boosting,4772.344326507749,834.2240094676373,7927.604379233856,0.9866702162825918,"{'modelo__learning_rate': 0.1, 'modelo__max_depth': 2, 'modelo__n_estimators': 150}"
+Regressão linear,5425.591663652751,836.9612256032246,8594.691620172485,0.9846481394277674,{}
+SVR,6646.820005270476,2746.7108724401924,10362.13190018124,0.9766895723834341,"{'modelo__regressor__C': 100, 'modelo__regressor__epsilon': 0.01, 'modelo__regressor__gamma': 0.05}"
